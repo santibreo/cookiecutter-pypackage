@@ -22,8 +22,7 @@ rst:
 
 publish:
 	rm -rf $(PUBLISHDIR) && \
-	mv $(BUILDDIR)/html $(PUBLISHDIR) && \
-	cp $(SOURCEDIR)/_static/img/jsontools-icon.ico $(PUBLISHDIR)/_static/
+	mv $(BUILDDIR)/html $(PUBLISHDIR)
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
