@@ -2,7 +2,7 @@
 Python package boilerplate
 ##########################
 
-There must be a thousand of these around, including the one that is used in the `cookiecutter turorial<https://cookiecutter.readthedocs.io/en/latest/tutorials/tutorial1.html#case-study-cookiecutter-pypackage>`_, so this is just one more.
+There must be a thousand of these around, including the one that is used in the `cookiecutter turorial <https://cookiecutter.readthedocs.io/en/latest/tutorials/tutorial1.html#case-study-cookiecutter-pypackage>`_, so this is just one more.
 
 ****
 Why?
