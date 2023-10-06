@@ -2,3 +2,4 @@ black
 coverage
 pre-commit
 pytest
+mypy
