@@ -21,3 +21,20 @@ Why?
   - Using make to make your life much simpler
   - Checking that your package name is not currently in use in PyPI.
 
+
+**********
+How to use
+**********
+
+This can be used normally with `cookiecutter <https://cookiecutter.readthedocs.io/en/latest>`_ just run:\ ::
+
+  $ cookiecutter gh:santibreo/cookiecutter-pypackage
+
+To make the Github Workflow work you need to:
+
+1. Create an environment in your remote repo called 'release'.
+2. Configure a trusted publishing for your PyPI project.
+
+If this is your first time best follow `this tutorial <https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/>`_ (this workflow does not contain the signing part).
+
+To publish the documentation to Github Pages you have to go to remote repo Settings > Pages and there select a branch and `docs` folder.
